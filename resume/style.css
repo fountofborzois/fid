@@ -1,0 +1,65 @@
+body {
+    margin: 0 20%;
+    font: 1.25rem/1.75rem sans-serif;
+    color: rgb(5, 5, 73);
+    background-color: rgb(203, 229, 237);
+    text-align: center;
+    background-image: url(images/background.png);
+    background-position: top center;
+    background-attachment: fixed;
+}
+header {
+    margin-top: 0;
+    padding: 3em 1em 2em 1em;
+    text-align: center;
+    background-color: rgb(255 255 255 / .75);
+}
+img {
+    float: center;
+    margin: 0 12px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    margin: 0 15px;
+}
+a:any-link {
+    color: rgb(33, 111, 162);
+}
+a:hover {
+    color: rgb(43, 21, 21);
+}
+h1 {
+    font-family: "Germania One", sans-serif;
+    color: rgb(7, 75, 144);
+}
+h2 {
+    color: rgb(11, 11, 119);
+}
+footer {
+    border-top: 1px solid rgb(5, 5, 73);
+    text-align: center;
+    margin-top: 2em;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+}
+.artwork img {
+    height: auto;
+    width: 100%;
+}
+.borzoi img {
+    float: left;
+    margin: 0 12px;
+}
+.germania-one-regular {
+    font-family: "Germania One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
