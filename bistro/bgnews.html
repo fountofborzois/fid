@@ -1,52 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset ="utf-8">
-<title>The Black Goose Bistro News</title>
+<meta charset="utf-8">
+<title>Black Goose Bistro News</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
 <style>
-    body {
-        margin: 0 10%;
-        font: 1.25rem/1.75rem sans-serif;
-        color: floralwhite;
-        background-color: darkslategray;
-    }
-    header {
-        background-color: #faf2e4;
-        text-align: center;
-        padding: 12px;
-        margin-bottom: 36px;
-    }
-    h1 {
-        color: darkslategray;
-        font: bold 1.75rem sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 5px;
-        margin: 0;
-    }
-    h2 {
-        color: orange;
-        font: bold 1.25rem sans-serif;
-        text-align: center;
-    }  
-    h3 {
-        font: bold 1rem sans-serif;
-    }  
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-    li {
-        display: inline;
-        margin: 0 15px;
-    }
-    nav {
-        text-align: center;
-    }
+
+html {
+  font-size: 100%;
+}
+body {
+  font-family: Georgia, serif;
+  line-height: 1.75;
+  margin: 0 15% 0;
+  color: floralwhite;
+  background-color: rgb(84, 113, 113);
+  background-image: url(images/bullseye.png);
+  background-position: top center;
+  background-attachment: fixed;
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background-color: rgb(255 255 255 / .25);
+  background-image: url(images/blackgoose_1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+h1 {
+  font: 400 2.5rem "Julius Sans One", Verdana, sans-serif;
+  color: #fce922;
+  text-shadow: .1em .1em .05em gainsboro;
+}
+h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  color: hsl(55, 97%, 56%);
+}
+dt {
+  font-weight: bold;
+  color: orange;
+}
+strong {
+  font-style: italic;
+}
+dt strong {
+  color: tomato;
+}
+#info {
+  color: black;
+}
+#info p {
+  font-style: italic;
+}
+.price {
+  font-style: italic;
+  color: orange;
+}
+.label {
+  font-variant: small-caps;
+  font-style: normal;
+}
+p.warning, sup {
+  font-size: small;
+  color: tomato;
+}
+h1, h2, #info {
+  text-align: center;
+}
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+  margin: 0 15px;
+}
+nav {
+  text-align: center;
+}
 </style>
 </head>
 <body>
-<h1>The Black Goose Bistro News</h1>
+<header>
+    <h1>The Black Goose Bistro<br> &bull; News &bull;</h1>
 <nav>
 <ul>
 <li><a href="index.html" style="color:aqua ;">Home</a></li>
@@ -58,6 +105,11 @@
 </ul>
 </nav>
 
+  <div id="info">
+    <p>Baker's Corner, Seekonk, Massachusetts<br>
+    <span class="label">Hours: Monday through Thursday:</span> 11 to 9, <span class="label">Friday and Saturday;</span> 11 to midnight</p>
+  </div>
+</header>
 <article>
 <h2>Cooking With Daniel</h2>
 posted by BGB, <time datetime="2026-07-13">July, 13, 2026</time>
