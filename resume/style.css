@@ -4,7 +4,7 @@ body {
     color: rgb(5, 5, 73);
     background-color: rgb(203, 229, 237);
     text-align: center;
-    background-image: url(images/background.png);
+    background-image: url(images/background.PNG);
     background-position: top center;
     background-attachment: fixed;
 }
